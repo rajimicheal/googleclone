@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+h1{
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    display: inline;
+    height: 50px;
+    width: 600px;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 0 0 20px 0px rgba(0 , 0 , 0 ,0.2) ;
+    margin-right: 200px;
+    padding-left: 20px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+p{
+    margin-left: 480px;
+}
+.a1,.a2{
+    padding: 10px;
+    border: none;
+    border-radius:5px ;
+}
+.a1:hover,.a2:hover{
+    border: 2px solid rgb(126, 124, 124);
+}
+.a1{
+    margin-left: 550px;
+}
+.search-wrapper{
+    display: inline;
+}

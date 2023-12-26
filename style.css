@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+hr{
+    margin-top:23px;  
+}
+.rees{
+    margin-bottom: 50px;
+}
+.text{
+    margin-left: 220px;
+    width: 700px;
+}
+h1{
+    display: inline;
+    margin-right: 100px;
+}
+button{
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightblue;
+    margin-left: 120px;
+}
+.search{
+    display: inline;
+    height: 50px;
+    width: 600px;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 0 0 20px 0px rgba(0 , 0 , 0 ,0.2) ;
+    margin-right: 200px;
+    padding-left: 20px;
+}
+.search-wrapper{
+    display: inline;
+}
+.s{
+    margin-left: 1100px;
+    margin-TOP:-40PX;
+}
+.hr{
+    width: 100%;
+}
+.as{
+    display: inline;
+    margin-right: 200px;
+}
+.as1{
+    display: inline;
+    margin-right: 120px;
+}
+@media screen and (max-width:1310px){
+    .a1{
+        padding: 10px 10px;
+        margin-left: 20px;
+        width: 100px;
+    }
+    .text{
+        margin-left: 220px;
+        width: 500px;
+    }
+    .search{
+        width: 400px;
+        display: flex;
+        margin-right: 100px;
+        margin-top: -20px;
+        margin-left: 300px;
+    }
+    h1{
+        position:relative;
+        top: 20px;
+        margin-right: 0px;
+    }
+    p,.as,.as1{
+        font-size: 10px;
+    }
+    .top-nav{
+        margin-top: -30px;
+    }
+    hr{
+       display: inline-block;
+    }
+}
